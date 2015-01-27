@@ -1,0 +1,141 @@
+/* ------------------*/
+/*  ELEMENTS COMMUNS */
+/* ------------------*/
+
+/* DEFINITION DE LA PAGE GENERALE */
+body{margin:0;padding:0;text-align:justify}
+
+div.contenuPage {
+	margin: 0 auto;
+	font-size: 10pt;
+	font-family: Verdana, sans-serif;
+	padding: 1em;
+}
+
+div.contenuPage a img {
+	border: none;
+}
+
+/* IE6 Hack */
+* html div.contenuPage {
+	margin-top: -12px;
+}
+
+/* DEFINITION DES MARGES DE LA PAGE */
+.ArticleComplet{margin-left:auto;width:auto}
+.articleBody{clear:both;padding-top:1px;margin-left:0px !important}
+.HautPage{float:right;text-align:right;width:16px;vertical-align:middle;color:#fff;font-weight:700;width:45px}
+
+/* DEFINITION DES IMAGES PAR DEFAUT */
+img{border:none;}
+.ImgLimite{max-width:650px}
+.ImgCliquable{box-shadow: 0 0 10px 2px black;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:3px;margin:10px}
+
+/* SOMMAIRE*/
+.nav-sommaire{position:fixed; top:300px; left:20px; width:200px; margin-right:10px;-webkit-border-radius:10px;border-radius:10px;text-align:left; opacity:1;}
+.nav-sommaire-ul{list-style:none;padding-left:2px; padding-right: 10px}
+
+/* IMAGES */
+iframe{border:0 #000 none}
+.imgtext-idea{background:url(http://mob-2.mcra.iliadgroupe.fr/sites/default/files/images/template_ER/idea.png) no-repeat 10px center #f1f2f1}
+.imgtext-info{background:url(http://mob-2.mcra.iliadgroupe.fr/sites/default/files/images/template_ER/info.png) no-repeat 10px center #f1f2f1}
+.imgtext-icone{width:40px;float:left;text-align:center;margin-right:50px}
+.rich-imgtext-idea{background-color:#ffd}
+.rich-imgtext-info{background-color:#def}
+
+/* encadré Attention */
+.imgtext-idea,.imgtext-warning,.imgtext-info{/*clear:both;*/text-align:justify;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;margin:10px 50px 10px 10px;padding:10px;border:1px solid #25465b;padding-left:50px}
+.rich-imgtext-idea,.rich-imgtext-warning,.rich-imgtext-info{text-align:justify;clear:both;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;margin:5px;padding:5px;border:1px solid #25465b}
+.imgtext-warning{background:url(http://mob-2.mcra.iliadgroupe.fr/sites/default/files/images/template_ER/warning.png) no-repeat 10px center #f1f2f1}
+.rich-imgtext-warning{background-color:#feb}
+
+/* titre haut de page (disparu 20130122)*/
+div.titre-article{color:#3a5486;padding-bottom:15px;text-align:center;letter-spacing:5px;text-shadow:1px 1px 1px #000;font:700 18pt Verdana,sans-serif}
+
+/* marges selon type de paragraphe */
+.nav-sommaire .TitreHeader{border-top:none}
+.TitreSection0,.TitreSection1,.TitreSection2,.TitreSection3,.TitreSection4,.TitreSection5{padding:5px 15px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;color:#000;text-decoration:none;vertical-align:middle;height:16px;font:700 12px Verdana,sans-serif; background-color:#8F9DA5;}
+
+/* MARGE PARTIE I */
+.BlocSection0{margin:10px 0 10px 15px}
+
+/*MARGE PARTIE I.1 */
+.BlocSection2{margin:10px 0 10px 45px}
+
+/* MARGE PARTIE I.1.A */
+.BlocSection3{margin:10px 0 10px 60px}
+
+/* MARGE PARTIE I.1.A.a*/
+.BlocSection4{margin:10px 0 10px 75px}
+
+
+/* marge petite profondeur*/
+.BlocSection1{margin:10px 0 10px 30px}
+ /* marge profondeur 5 */
+.BlocSection5{margin:10px 0 10px 90px}
+
+/* SPECS LISTE */
+li{margin-bottom:3px;font-size:10pt}
+
+/* CHARTE POUR TABLEAUX */
+table.tableau{border-collapse:collapse; border:1px solid #000000; text-align:center; vertical-align: center; cellpadding:10px;}
+table.leftalign{border-collapse:collapse; border:1px solid #000000; text-align:left; vertical-align: center; cellpadding:10px;}
+tr.titrecolonne{background-color:#8F9DA5;color:#ffffff; text-align:center;}
+tr.titrecolonneleft{background-color:#8F9DA5;color:#ffffff; text-align:left;}
+td.titreligne{background-color:#8F9DA5;color:#ffffff; text-decoration: bold; text-align: center;}
+td.titreligneleft{background-color:#8F9DA5;color:#ffffff; text-decoration: bold; text-align: left;}
+th.blanc{color:#ffffff;font-size:12px;}
+.centre{text-align:center;}
+.vide{empty-cells:hide;}
+.fondcase{background-color:#f5f5f5;}
+
+/* encadré Definition, haut de page !AJOUTER HERO-UNIT! */
+div.definition {border:1px solid #25465b;}
+
+
+/* COULEURS TEXTE */
+.oui{color:#33BCAF; text-decoration: bold;}
+.non{color:#EE5F5B; text-decoration: bold;}
+b.rouge{color:#e80515;}
+i.bleu {color:#2F96B4;}
+i.gris {color:#8F9DA5;}
+i.vert {color:#229A8D;}
+
+h1.titre{width:100%; text-align:left;}
+
+
+
+/* --------------------*/
+/*  ELEMENTS VARIABLES */
+/* --------------------*/
+
+
+
+/* TITRES VERTS : SERVICES OFFRES*/
+h3.service{text-align:left;width:100%; color:#24859D; border-color:#24859D;}
+h3.soustitreservice{text-align:left;margin-left:20px; color:#24859D;}
+.traitvert{height:1px;border-width:0;color:#33BCAF;background:#229A8D;margin:1px 1px}
+h5.partie3outil{color:#229A8D; text-align: left !important}
+
+/* TITRES BLEUS: OUTILS */
+h3.outil{text-align:left;width:100%; color:#229A8D; border-color:#229A8D;}
+h3.soustitreoutil{text-align:left;margin-left:20px; color:#24859D;}
+.traitbleu{height:1px;border-width:0;color:#24859D;background:#638ad9;margin:1px 1px}
+h5.partie3bleu{color:#2F96B4; text-align: left !important}
+
+
+/* TITRES ROUGES: PROCEDURES*/
+h3.procedure{text-align:left; width:100%; color:#BD362F; border-color:#BD362F;}
+h3.soustitreprocedure{text-align:left;margin-left:20px; color:#BD362F;}
+.traitrouge{height:1px;border-width:0;color:#EE5F5B;background:#BD362F;margin:1px 1px}
+h5.partie3{color:#BD362F; text-align: left !important}
+
+
+/* TITRES GRIS: INFOS */;
+h3.info{text-align:left; width:100%; color:#8F9DA5; border-color:#AABDC9;}
+h3.soustitreinfo{text-align:left;margin-left:20px; color:#8F9DA5;}
+.traitgris{height:1px;border-width:0;color:#AABDC9;background:#AABDC9;margin:1px 1px}
+h5.partie3info{color:#8F9DA5; text-align: left !important}
+
+
+.vertical{-webkit-transform:rotate(-90deg); -moz-transform:rotate(-90deg);}

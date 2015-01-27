@@ -1,0 +1,90 @@
+
+html, body, 
+.container,
+.cbp-vimenu li,
+ { 
+	height: 100%; 
+}
+
+.cbp-vimenu {
+	position: fixed;
+	overflow: hidden;
+	top: 50%;
+	right: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-style: bold;
+	text-align: center;
+vertical-align: middle;
+	background: transparent;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+.cbp-vimenu li a {
+	display: block;
+	text-indent: normal;
+	height: 40px;
+	width: 40px;
+	/*line-height: 5em; */
+	text-align: center;
+vertical-align: middle;
+	color: #999;
+	position: relative;
+	border-radius: 30%;
+	padding: 6px 6px;
+
+	/*border-bottom: 1px solid rgba(0,0,0,0.05);
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out; */
+}
+
+.cbp-vimenu li a:hover{
+	background: #d9534f;
+	border: 1px solid #d43f3a;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* class for current item */
+.cbp-vimenu li.cbp-vicurrent a {
+	background: #fff;
+	color: #d9534f;
+	text-align: center;
+	vertical-align: middle;
+		font-style: bold;
+}
+
+.cbp-vimenu li a:before {
+	font-style: bold;
+	font-weight: normal;
+	text-indent: normal;
+	position: absolute;
+	text-align: center;
+vertical-align: middle;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 14;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Example for media query (depends on total height of menu) */
+@media screen and (max-height: 34.9375em) { 
+
+	.cbp-vimenu {
+		font-size: 70%;
+	}
+
+}
+
+
